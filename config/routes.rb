@@ -1,4 +1,7 @@
 Blog::Application.routes.draw do
+  resources :badges
+
+
   resources :posts do
     resources :comments
   end

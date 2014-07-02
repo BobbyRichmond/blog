@@ -1,0 +1,11 @@
+class CreateBadges < ActiveRecord::Migration
+  def change
+    create_table :badges do |t|
+      t.string+"\n" :badgeName
+      t.integer+"\n" :badgeID
+      t.text+"\n" :Description
+
+      t.timestamps
+    end
+  end
+end

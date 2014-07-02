@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Badgename:</b>
+  <%= @badge.badgeName %>
+</p>
+
+<p>
+  <b>Badgeid:</b>
+  <%= @badge.badgeID %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @badge.Description %>
+</p>
+
+
+<%= link_to 'Edit', edit_badge_path(@badge) %> |
+<%= link_to 'Back', badges_path %>

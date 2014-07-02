@@ -1,10 +1,18 @@
 == Welcome to B-Rich's blog
 
+//packages needed
 $ sudo apt-get install ruby-rails-3.2 sqlite3 libsqlite3-dev git emacs
-//install gems
+
+//install gems 
 $ bundle install
-//set up db
+
+//set up db 
 $ rake db:migrate
 
-//start server
+//start server 
 $ rails s
+
+
+Things to do:
+Log-in page:
+Better "badges tab" allow user to 'add badge' to his "profile"?
